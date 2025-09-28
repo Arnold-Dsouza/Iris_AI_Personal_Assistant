@@ -1,15 +1,17 @@
-# Iris - Your AI Voice Assistant 🎙️✨
+# Iris AI Personal Assistant 🎙️✨
 
-![Iris Voice Assistant Preview](/public/image.png)
+![Iris AI Personal Assistant Preview](/public/image.png)
 
 ## 🌟 Overview
+
+Iris is a modern, multilingual AI voice assistant that brings natural conversation to your browser. With support for English 🇺🇸, Arabic 🇱🇧, and French 🇫🇷, Iris makes interaction seamless and intuitive.
 
 ### 💬 Live Captions (CC)
 - **Real-time subtitles** show what you're saying as you speak
 - **AI response captions** display what Iris is saying back
 - **Toggle CC button** at the top center to show/hide captions
 - **Auto-scroll** keeps latest conversation visible
-- **Clean interface** shows last few exchangess a modern, multilingual AI voice assistant that brings natural conversation to your browser. With support for English 🇺🇸, Arabic 🇱🇧, and French 🇫🇷, Iris makes interaction seamless and intuitive.
+- **Clean interface** shows last few exchanges
 
 ## ✨ Features
 
@@ -35,8 +37,8 @@
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/naveed-gung/iris.git
-   cd iris
+   git clone https://github.com/YOUR_USERNAME/Iris_AI_Personal_Assistant.git
+   cd Iris_AI_Personal_Assistant
    ```
 
 2. **Install Dependencies**
@@ -154,8 +156,22 @@ The Hugging Face API serves as a **fallback** when Google's Gemini API fails or 
 - Quick response times
 
 
-### 🌟 Made with Love and AI 🤖
+## 🚀 Deployment
 
-[Live Demo](https://n0v0.netlify.app/) 
+### Vercel (Recommended)
+1. Push your code to GitHub
+2. Connect your repository to [Vercel](https://vercel.com)
+3. Deploy with one click!
 
-</div>
+### Other Platforms
+- **Netlify**: Connect GitHub repo and deploy
+- **GitHub Pages**: Use GitHub Actions for automatic deployment
+- **Firebase Hosting**: Deploy with `firebase deploy`
+
+## 🌟 Made with Love and AI 🤖
+
+Built with React, TypeScript, and modern web technologies for the best user experience.
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
