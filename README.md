@@ -1,10 +1,10 @@
-# Iris AI Personal Assistant 🎙️✨
+# Iris - Your AI Voice Assistant 🎙️✨
 
-![Iris AI Personal Assistant Preview](/public/image.png)
+![Iris Voice Assistant Preview](/public/image.png)
 
 ## 🌟 Overview
 
-Iris is a modern, multilingual AI voice assistant that brings natural conversation to your browser. With support for English 🇺🇸, Arabic 🇱🇧, and French 🇫🇷, Iris makes interaction seamless and intuitive.
+Iris is a modern, multilingual AI voice assistant that brings natural conversation to your browser. With support for **English 🇺🇸** and **Hindi 🇮🇳**, Iris makes interaction seamless and intuitive.
 
 ### 💬 Live Captions (CC)
 - **Real-time subtitles** show what you're saying as you speak
@@ -17,8 +17,7 @@ Iris is a modern, multilingual AI voice assistant that brings natural conversati
 
 - 🗣️ **Multilingual Support**
   - English (US) 🇺🇸
-  - Arabic (Lebanese) 🇱🇧
-  - French 🇫🇷
+  - Hindi (India) 🇮🇳
 
 - 🎯 **Key Capabilities**
   - 🎨 Beautiful, responsive blob visualization
@@ -61,17 +60,14 @@ Iris is a modern, multilingual AI voice assistant that brings natural conversati
 ## 🗣️ Voice Commands
 
 - 🇺🇸 **English**
-  - "Switch to Arabic"
-  - "Switch to French"
+  - "Switch to Hindi"
+  - "हिंदी में बोलो" (Speak in Hindi)
   - Ask any question!
 
-- 🇱🇧 **Arabic**
-  - "تكلم انجليزي" (Speak English)
-  - Ask questions in Arabic!
-
-- 🇫🇷 **French**
-  - "Passer à l'anglais" (Switch to English)
-  - Ask questions in French!
+- 🇮🇳 **Hindi**
+  - "अंग्रेजी में बोलो" (Speak in English)
+  - "Switch to English"
+  - Ask questions in Hindi!
 
 ## 🛠️ Tech Stack
 
@@ -108,7 +104,7 @@ window.testAPIs()
 ```
 
 ### What Does Hugging Face Do?
-The Hugging Face API serves as a **fallback** when Google's Gemini API fails or is overloaded. It provides alternative AI models for text generation, particularly useful for Arabic language support with specialized models like `Salesforce/xgen-7b-8k-arabic`.
+The Hugging Face API serves as a **fallback** when Google's Gemini API fails or is overloaded. It provides alternative AI models for text generation, particularly useful for Hindi language support with specialized multilingual models.
 
 ## 📱 Usage
 
@@ -126,9 +122,9 @@ The Hugging Face API serves as a **fallback** when Google's Gemini API fails or 
 - **Clean interface** shows last few exchanges
 
 ### �🗣️ Language Commands
-- "Speak Arabic" / "Switch to Arabic"  
-- "تكلم انجليزي" / "Speak English"
-- "Speak French" / "Switch to French"
+- "Speak Hindi" / "Switch to Hindi"  
+- "हिंदी में बोलो" / "Speak in Hindi"
+- "अंग्रेजी में बोलो" / "Speak in English"
 
 ### 🎨 Visual Indicators
 - **Green indicator** shows when continuous listening is active
@@ -156,22 +152,17 @@ The Hugging Face API serves as a **fallback** when Google's Gemini API fails or 
 - Quick response times
 
 
-## 🚀 Deployment
-
-### Vercel (Recommended)
-1. Push your code to GitHub
-2. Connect your repository to [Vercel](https://vercel.com)
-3. Deploy with one click!
-
-### Other Platforms
-- **Netlify**: Connect GitHub repo and deploy
-- **GitHub Pages**: Use GitHub Actions for automatic deployment
-- **Firebase Hosting**: Deploy with `firebase deploy`
-
 ## 🌟 Made with Love and AI 🤖
 
-Built with React, TypeScript, and modern web technologies for the best user experience.
+**Iris AI Personal Assistant** - Bringing natural conversation to your browser with English and Hindi support.
 
-## 📄 License
+---
 
+### 📝 License
 This project is open source and available under the [MIT License](LICENSE).
+
+### 🤝 Contributing
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+### 📧 Contact
+For questions or support, please open an issue on GitHub.
