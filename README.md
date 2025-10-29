@@ -1,40 +1,41 @@
-# Iris - Your AI Voice Assistant 🎙️✨
+# Iris - Your Voice Assistant
 
 ![Iris Voice Assistant Preview](/public/image.png)
 
-## 🌟 Overview
+## Overview
 
-Iris is a modern, multilingual AI voice assistant that brings natural conversation to your browser. With support for **English 🇺🇸** and **Hindi 🇮🇳**, Iris makes interaction seamless and intuitive.
+Iris is a modern, multilingual voice assistant that brings natural conversation to your browser. With support for English and Hindi, Iris makes interaction smooth and intuitive.
 
-### 💬 Live Captions (CC)
-- **Real-time subtitles** show what you're saying as you speak
-- **AI response captions** display what Iris is saying back
-- **Toggle CC button** at the top center to show/hide captions
-- **Auto-scroll** keeps latest conversation visible
-- **Clean interface** shows last few exchanges
+### Live Captions (CC)
+- Real-time subtitles display what you speak
+- AI response captions show Iris’s replies
+- A toggle button at the top center lets you show or hide captions
+- Auto-scroll keeps the latest conversation visible
+- A clean interface shows the most recent exchanges
 
-## ✨ Features
+## Features
 
-- 🗣️ **Multilingual Support**
-  - English (US) 🇺🇸
-  - Hindi (India) 🇮🇳
+### Multilingual Support
+- English (US)
+- Hindi (India)
 
-- 🎯 **Key Capabilities**
-  - 🎨 Beautiful, responsive blob visualization
-  - 🔄 Real-time language switching
-  - 🤖 Powered by advanced AI models
-  - 🎵 Natural voice synthesis
-  - 🎤 Accurate speech recognition
+### Key Capabilities
+- Responsive blob visualization
+- Real-time language switching
+- Backed by advanced AI models
+- Natural voice generation
+- Accurate speech recognition
 
-- 💫 **User Experience**
-  - 🌊 Smooth animations and transitions
-  - 🎨 Dynamic color changes
-  - 📱 Fully responsive design
-  - 🖱️ Click or voice activation
+### User Experience
+- Smooth animations and transitions
+- Dynamic color effects
+- Fully responsive design
+- Click or voice-based activation
 
-## 🚀 Getting Started
+## Getting Started
 
 1. **Clone the Repository**
+
    ```bash
    git clone https://github.com/YOUR_USERNAME/Iris_AI_Personal_Assistant.git
    cd Iris_AI_Personal_Assistant
@@ -57,39 +58,38 @@ Iris is a modern, multilingual AI voice assistant that brings natural conversati
    npm run dev
    ```
 
-## 🗣️ Voice Commands
 
-- 🇺🇸 **English**
-  - "Switch to Hindi"
-  - "हिंदी में बोलो" (Speak in Hindi)
-  - Ask any question!
+## Voice Commands
 
-- 🇮🇳 **Hindi**
-  - "अंग्रेजी में बोलो" (Speak in English)
-  - "Switch to English"
-  - Ask questions in Hindi!
+### English
+- "Switch to Hindi"
+- "हिंदी में बोलो" (Speak in Hindi)
+- Ask any question naturally
 
-## 🛠️ Tech Stack
+### Hindi
+- "अंग्रेजी में बोलो" (Speak in English)
+- "Switch to English"
+- Ask questions in Hindi
 
-- ⚛️ React + TypeScript
-- 🎨 Tailwind CSS
-- 🧠 Google Gemini API
-- 🤖 Hugging Face Models
-- 🎵 Web Speech API
-- ⚡ Vite
+## Tech Stack
 
-## 🌈 Features in Detail
+- React + TypeScript  
+- Tailwind CSS  
+- Google Gemini API  
+- Hugging Face Models  
+- Web Speech API  
+- Vite
 
-## 🔍 Troubleshooting
+## Troubleshooting
 
 ### Voice Recognition Issues
-1. **Browser Support**: Make sure you're using Chrome, Edge, or Safari
-2. **HTTPS Required**: Speech recognition only works over HTTPS (except on localhost)
-3. **Microphone Permissions**: Allow microphone access when prompted
-4. **Check Console**: Open browser DevTools and check for error messages
+1. Use Chrome, Edge, or Safari for full compatibility.  
+2. Speech recognition works only over HTTPS (except on localhost).  
+3. Allow microphone access when prompted.  
+4. Check the browser console for any error messages.
 
 ### API Issues
-1. **Environment Variables**: Ensure your `.env` file has the correct API keys:
+1. Verify your `.env` file contains correct API keys:
    ```env
    GEMINI_API_KEY=your_key_here
    VITE_HUGGING_FACE_API_TOKEN=your_token_here
@@ -103,66 +103,60 @@ Open browser console and run:
 window.testAPIs()
 ```
 
-### What Does Hugging Face Do?
-The Hugging Face API serves as a **fallback** when Google's Gemini API fails or is overloaded. It provides alternative AI models for text generation, particularly useful for Hindi language support with specialized multilingual models.
+### What Hugging Face Does
+The Hugging Face API acts as a fallback when the Google Gemini API is unavailable or busy. It provides alternative AI models for text generation and enhances multilingual support, especially for Hindi.
 
-## 📱 Usage
+## Usage
 
-### 🎯 Continuous Listening Mode (Like Gemini!)
-1. **Click once** on the animated blob to start continuous listening
-2. **Speak multiple questions** - the assistant will respond to each one automatically
-3. **No need to click again** - it keeps listening after each response
-4. **Click the blob again** to stop continuous mode
+### Continuous Listening Mode
+1. Click the animated blob once to start continuous listening.  
+2. Speak multiple questions; Iris will respond automatically to each.  
+3. No need to click again—continuous mode stays active until you stop it.  
+4. Click the blob again to exit continuous mode.
 
-### � Live Captions (CC)
-- **Real-time subtitles** show what you're saying as you speak
-- **AI response captions** display what Iris is saying back
-- **Toggle CC button** at the top center to show/hide captions
-- **Auto-scroll** keeps latest conversation visible
-- **Clean interface** shows last few exchanges
+### Live Captions
+- Real-time subtitles appear as you speak.  
+- AI response captions show Iris’s answers.  
+- Toggle captions from the top center button.  
+- Auto-scroll keeps the latest part of the conversation visible.  
+- The interface shows only the recent exchanges for clarity.
 
-### �🗣️ Language Commands
-- "Speak Hindi" / "Switch to Hindi"  
-- "हिंदी में बोलो" / "Speak in Hindi"
-- "अंग्रेजी में बोलो" / "Speak in English"
+### Language Commands
+- “Speak Hindi” / “Switch to Hindi”  
+- “हिंदी में बोलो” / “Speak in Hindi”  
+- “अंग्रेजी में बोलो” / “Speak in English”
 
-### 🎨 Visual Indicators
-- **Green indicator** shows when continuous listening is active
-- **Animated blob** changes color based on current state:
-  - Purple: Idle/Ready
-  - Blue: Listening
-  - Green: Processing/Responding
+### Visual Indicators
+- A green indicator shows when continuous listening is active.  
+- The animated blob changes color to reflect the assistant’s state:
+  - Purple: Idle or ready  
+  - Blue: Listening  
+  - Green: Processing or responding  
   - Purple: Speaking
 
-## 🎨 Features
+## Dynamic Visualization
 
-### 🌟 Dynamic Blob Visualization
-- Responds to voice input
-- Changes color based on state
-- Smooth animations
+- The blob reacts to voice input.  
+- It changes color based on the assistant’s state.  
+- Smooth transitions create a polished, modern look.
 
-### 🌐 Language Support
-- Seamless language switching
-- Natural voice synthesis
-- Accurate speech recognition
+## Language Support
 
-### 🤖 AI Integration
-- Smart context handling
-- Natural language processing
-- Quick response times
+- Instant switching between English and Hindi.  
+- Natural, clear voice responses.  
+- Accurate speech recognition for both languages.
 
+## AI Integration
 
-## 🌟 Made with Love and AI 🤖
+- Context-aware conversation handling.  
+- Quick and natural responses.  
+- Reliable performance with fallback models.
 
-**Iris AI Personal Assistant** - Bringing natural conversation to your browser with English and Hindi support.
-
----
-
-### 📝 License
+## License
 This project is open source and available under the [MIT License](LICENSE).
 
-### 🤝 Contributing
-Contributions are welcome! Please feel free to submit a Pull Request.
+## Contributing
+Contributions are welcome. You can open a Pull Request with improvements or new features.
 
-### 📧 Contact
+## Contact
 For questions or support, please open an issue on GitHub.
